@@ -1,0 +1,108 @@
+body {
+  background-color: #000000;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  text-shadow: 2px 2px #000;
+}
+
+.neonbold1{
+    font-weight: bold;
+    text-shadow: #00ffe7;
+}
+.neon-button {
+  background-color: transparent;
+  border: 2px solid #ff00c8;
+  color: #ff00c8;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-shadow: 0 0 5px #ff00c8;
+  box-shadow: 0 0 10px #ff00c8, 0 0 20px #ff00c8;
+  transition: all 0.3s ease;
+  margin-left: 600px;
+}
+
+/* Neon Glow Text */
+.neon-text {
+  color: #00ffe7;
+  text-shadow: 0 0 5px #00ffe7, 0 0 10px #00ffe7, 0 0 20px #00ffe7;
+}
+
+/* Neon Glow Text2 */
+.neon-text2 {
+  color: #1eff00;
+  text-shadow: 0 0 5px #1eff00, 0 0 10px #1eff00, 0 0 20px #1eff00;
+}
+
+/* Neon Button */
+.neon-button {
+  background-color: transparent;
+  border: 2px solid #ff00c8;
+  color: #ff00c8;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-shadow: 0 0 5px #ff00c8;
+  box-shadow: 0 0 10px #ff00c8, 0 0 20px #ff00c8;
+  transition: all 0.3s ease;
+}
+
+.neon-button:hover {
+  background-color: #ff00c8;
+  color: #0f0f0f;
+  box-shadow: 0 0 20px #ff00c8, 0 0 40px #ff00c8;
+}
+
+/* Neon Container */
+.neon-box {
+  border: 2px solid #00ffe7;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px #00ffe7, 0 0 20px #00ffe7;
+  background-color: rgba(255, 0, 149, 0.8);
+}
+
+/* Neon Input Field */
+.neon-input {
+  background-color: transparent;
+  border: 2px solid #00ffe7;
+  color: #00ffe7;
+  padding: 10px;
+  font-size: 1rem;
+  box-shadow: 0 0 5px #00ffe7;
+}
+
+.neon-input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #00ffe7, 0 0 20px #00ffe7;
+}
+
+/* Neon Heading */
+.neon-heading {
+  font-size: 2rem;
+  color: #ff00c8;
+  text-shadow: 0 0 5px #ff00c8, 0 0 15px #ff00c8;
+}
+
+.neonbold1 {
+    font-weight: bold;
+    text-shadow: 0 0 5px #00ffe7, 0 0 15px #00ffe7;
+}
+
+.neon-button1 {
+  background-color: transparent;
+  border: 2px solid #ff00c8;
+  color: #ff00c8;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-shadow: 0 0 5px #ff00c8;
+  box-shadow: 0 0 10px #ff00c8, 0 0 20px #ff00c8;
+  transition: all 0.3s ease;
+  margin-left: 500px;
+  margin-bottom: 50px;
+}

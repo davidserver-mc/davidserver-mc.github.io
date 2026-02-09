@@ -1,0 +1,15 @@
+body {
+  background-color: #6200ff;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  text-shadow: 2px 2px #000;
+}
+
+.neonbold1{
+    font-weight: bold;
+    text-shadow: #00ffe7;
+}

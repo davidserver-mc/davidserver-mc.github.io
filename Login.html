@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="CSS1.css" />
+  <link rel="stylesheet" href="neon-style.css" />
+  <style>
+    .neon-box {
+      display: block;
+      margin: 10px 0;
+    }
+    .login-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="neon-heading">Welcome to</h1>
+  <p class="neon-text2">NPG-SHOP</p>
+  <p class="neon-text">Please Log in Or Create An Account</p>
+
+  <p class="neonbold1">Username</p>
+  <input type="text" id="username" class="neon-box" placeholder="Enter username" />
+
+  <p class="neonbold1">Password</p>
+  <input type="password" id="password" class="neon-box" placeholder="Enter password" />
+
+  <button class="neon-button" onclick="checkLogin()">Login</button>
+
+  <script>
+    function checkLogin() {
+      const user = document.getElementById("username").value.trim();
+      const pass = document.getElementById("password").value.trim();
+
+      // Validation check
+      if (user.length < 3 || pass.length < 3) {
+        alert("Error: Username and password must be at least 3 characters long.");
+        return;
+      }
+
+      if (user === "admin" && pass === "sigmaadmin") {
+        // Open secret tabs
+        window.open("secret1.html", "_blank");
+      } else {
+        // Open fallback page
+        window.open("npgshop.html", "_blank");
+      }
+    }
+
+          if (user === "urladmin" && pass === "urladmin") {
+        // Open secret tabs
+        window.open("secret1.html", "_blank");
+      } else {
+        // Open fallback page
+        window.open("npgshop.html", "_blank");
+      }
+  </script>
+</body>
+</html>
