@@ -67,6 +67,12 @@ body {
   text-shadow: 0 0 5px #ff00c8, 0 0 15px #ff00c8;
 }
 
+.neon-heading2 {
+  font-size: 3rem;
+  color: #00ffff;
+  text-shadow: 0 0 5px #00ffff, 0 0 15px #00ffff;
+}
+
 .neonbold1 {
     font-weight: bold;
     text-shadow: 0 0 5px #00ffe7, 0 0 15px #00ffe7;
